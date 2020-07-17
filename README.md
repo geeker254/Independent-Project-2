@@ -1,4 +1,4 @@
-# Project Name :
+# Project Name : AKWAN NAME GENERATOR
 
 ## Project Description :
 
@@ -6,14 +6,15 @@
 
 ### Setup Instructions
 
-### BDD
+### Behavior Driven Development
 
-### Technologies Used 
+### Technologies Used;
+    *HP Elitebook folio
 
 ### Contact information
 
-    *
+    *eugenebiwott@gmail.com
 
 ### Link to published site: []()
 
-## License: []()
+## License: [Copywright information](https://raw.githubusercontent.com/geeker254/Independent-Project-2/master/LICENSE)
