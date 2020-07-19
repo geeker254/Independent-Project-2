@@ -26,9 +26,14 @@ female.Saturday = "Ama";
 
 
 
-if ((Date)(d) (d<=0) (d>31) ) {
+if ((validcustom03)(d) (d<=0) (d>31) ) {
   alert = ("invalid feedback")
 }
+
+if ((validcustom02)(m) (m<= 0) (m > 12)) {
+  alert = ("valid feedback")  
+}
+
 
 var male = document.getElementById("validationCustom04");
 var female = document.getElementById("validationCustom04");
