@@ -19,6 +19,6 @@ The user inputs the date born where it is run by a series of if statements and r
 
     *eugenebiwott@gmail.com
 
-### Link to published site: []()
+### Link to published site: [click here](https://geeker254.github.io/Independent-Project-2/)
 
 ## License: [Copywright information](https://raw.githubusercontent.com/geeker254/Independent-Project-2/master/LICENSE)
