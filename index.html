@@ -4,63 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <!-- bootstrap css -->
-            <link rel="stylesheet" href="./css/bootstrap.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
             <!-- custom css -->
             <link rel="stylesheet" href="./css/index.css">
+           
     <title>AKWAN NAME GENERATOR</title>
 </head>
 <body>
-    <h1 class="text-center">GHANAIAN NAME GENERATOR</h1>
+    <h2 class="text-center">GHANAIAN NAME GENERATOR</h2>
     <header class="jumbotron text-primary bg-info">
         <h2 class="text-center text-danger">AKWAN Name Selector</h2>
         <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born</p>
-    </header>
-    <p>Input date of birth in order of year, month and date</p>   
-      <form class="needs-validation" novalidate>
-        <div class="form-row">
-          <div class="col-md-4 mb-5 margin-left: 80px;">
-            <label for="validationCustom01">Year (between 1989 to 2100)</label>
-            <input type="" class="form-control" id="validationCustom01" value="" min="1989" max="2100" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-          </div>
-          <div class="col-md-4 mb-5 margin-left: 80px;">
-            <label for="validationCustom02">Month (between 1 and 12)</label>
-            <input type="" class="form-control" id="validationCustom02" value="" min="1" max="12" required>
-            <div class="valid-feedback">
-              Looks bad!
-            </div>
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="col-md-3 mb-5">
-            <label for="validationCustom03">Date (between 1 and 31)</label>
-            <input type="" class="form-control" id="validationCustom03" value="" min="1" max="31" required>
-            <div class="invalid-feedback">
-              Please provide a valid Date.
-            </div>
-          </div>
-          <div class="col-md-3 mb-5">
-            <label for="validationCustom04">Gender</label>
-            <select class="custom-select" id="validationCustom04" required>
-              <option selected disabled value="Gender"></option>
-              <option>Male</option>
-              <option>Female</option>             
-            </select>
-            <div class="valid-feedback">
-              Looks good
-            </div>
-          </div>          
-        </div>       
-       
-      </form>
-      <button onclick="window.print()">Print this page</button>
+    </header>    
+    <h1>Custom<span>Date</span>Picker</h1>
 
-      <p>Your Day of birth is: document.write(validationCustom01, validationCustom02, validationCustom03;</p>
+    <div class="datepicker">
+        <div class="selected-date">30/ 07/ 2019</div>
+
+        <div class="dates">
+            <div class="month">
+                <div class="arrows-previous-month">&leftarrow;</div>
+                <div class="month"></div>
+                <div class="arrows-next-month">&rightarrow;</div>
+            </div>
+        </div>
+    </div>
+      
+    <p>Your Day of birth is:<document class="validation"></document></p>
       <p>Your Akwan name is:</p>
       <h2 class="text-center">AKWAN NAME GENERATOR</h2>
       <p>The Akwan name generator is a type of name randomiser based on name where depending om the day one is born. For instance if a male is born in Friday his Akwan name will be "Kofi". If a female is born on Sunday she will be called "Akosua".</p>
-      <script src="./css/index.css"></script>
+      <script src="./JS/index.js"></script>
 </body>
 </html>
