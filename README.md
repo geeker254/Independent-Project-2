@@ -1,12 +1,16 @@
-# Project Name : AKWAN NAME GENERATOR
+# Project Name : 
+AKWAN NAME GENERATOR
 
 ## Project Description :
+This is a name generator application which selects the name of a person based on the day of the week he or she was born
 
-#### Author: Eugene Biwott
+#### Author: 
+Eugene Biwott
 
 ### Setup Instructions
-
+Runs on normal browser like Chrome, Mozilla
 ### Behavior Driven Development
+The user inputs the date born where it is run by a series of if statements and returns a value based on the name if the day selected.
 
 ### Technologies Used;
     *HP Elitebook folio
